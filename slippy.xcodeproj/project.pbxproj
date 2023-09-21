@@ -3,20 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E522789F61C8CADFBAAAE84 /* Pods_slippyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FE73888A9436F64BFC1A7E /* Pods_slippyUITests.framework */; };
+		96077E3622C27E0E00AE3BA9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96077E3522C27E0E00AE3BA9 /* GameKit.framework */; };
+		960E89A8229B5B4700755FA1 /* Celebration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960E89A7229B5B4700755FA1 /* Celebration.mp3 */; };
+		9618856E22CE79C60001E175 /* pulse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9618856D22CE79C60001E175 /* pulse.mp3 */; };
+		9618857022CE7E460001E175 /* woosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9618856F22CE7E460001E175 /* woosh.mp3 */; };
+		961FBC43224C214900996C8E /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FBC42224C214900996C8E /* Goal.swift */; };
+		963FA6AA2295AE7F00E1BB64 /* button_open.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 963FA6A92295AE7F00E1BB64 /* button_open.mp3 */; };
+		963FA6AC2295AE8300E1BB64 /* button_close.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 963FA6AB2295AE8300E1BB64 /* button_close.mp3 */; };
+		963FA6B02296274800E1BB64 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 963FA6AF2296274800E1BB64 /* pop.mp3 */; };
+		964F774922A44A2D003F6A37 /* Quick.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 964F774822A44A2D003F6A37 /* Quick.ttf */; };
 		966321A82157209E0051B0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966321A72157209E0051B0EA /* AppDelegate.swift */; };
-		966321AA2157209E0051B0EA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 966321A92157209E0051B0EA /* GameScene.sks */; };
-		966321AC2157209E0051B0EA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 966321AB2157209E0051B0EA /* Actions.sks */; };
 		966321AE2157209E0051B0EA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966321AD2157209E0051B0EA /* GameScene.swift */; };
 		966321B02157209E0051B0EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966321AF2157209E0051B0EA /* GameViewController.swift */; };
-		966321B32157209E0051B0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966321B12157209E0051B0EA /* Main.storyboard */; };
-		966321B52157209F0051B0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966321B42157209F0051B0EA /* Assets.xcassets */; };
 		966321B82157209F0051B0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966321B62157209F0051B0EA /* LaunchScreen.storyboard */; };
 		966321C32157209F0051B0EA /* slippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966321C22157209F0051B0EA /* slippyTests.swift */; };
 		966321CE2157209F0051B0EA /* slippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966321CD2157209F0051B0EA /* slippyUITests.swift */; };
+		96632371228A856F00B44F8A /* CharactersMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632370228A856F00B44F8A /* CharactersMenu.swift */; };
+		96632373228A88E800B44F8A /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632372228A88E800B44F8A /* SettingsMenu.swift */; };
+		96632388228D008F00B44F8A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632387228D008F00B44F8A /* Button.swift */; };
+		9667562F221E217200E7FEB5 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667562E221E217200E7FEB5 /* Obstacle.swift */; };
+		96940E69222B1A9F008F6BE5 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96940E68222B1A9F008F6BE5 /* Track.swift */; };
+		969978CD232725B300507D6E /* crashed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 969978CC232725B300507D6E /* crashed.sks */; };
+		969978CF23272A4B00507D6E /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 969978CE23272A4B00507D6E /* fire.sks */; };
+		969978D123272F3600507D6E /* snowmobile_snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 969978D023272F3600507D6E /* snowmobile_snow.sks */; };
+		969D0BC7226C26D100F474C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969D0BC6226C26D100F474C5 /* Assets.xcassets */; };
+		969D0BCB226D0C0500F474C5 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D0BCA226D0C0500F474C5 /* Coin.swift */; };
+		969D4D26220689360096A11C /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D25220689360096A11C /* Flag.swift */; };
+		969D4D282206A84A0096A11C /* LargeRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D272206A84A0096A11C /* LargeRock.swift */; };
+		969D4D2A2206BAA50096A11C /* LargeCabin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D292206BAA50096A11C /* LargeCabin.swift */; };
+		969D4D2C220EB0F90096A11C /* Snowman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D2B220EB0F90096A11C /* Snowman.swift */; };
+		969D4D2E220F7DE60096A11C /* SmallCabin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D2D220F7DE50096A11C /* SmallCabin.swift */; };
+		969D4D30220F836E0096A11C /* SmallRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D4D2F220F836E0096A11C /* SmallRock.swift */; };
+		96B1CC9021BD6B2A0035D9A7 /* Skier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1CC8F21BD6B2A0035D9A7 /* Skier.swift */; };
+		96B7A3322239F9450080E181 /* skier_snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96B7A3312239F9450080E181 /* skier_snow.sks */; };
+		96BB569B227D6D7D00F541ED /* GameOverMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BB569A227D6D7D00F541ED /* GameOverMenu.swift */; };
+		96BE900922CE9E78001E0BFB /* woosh2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96BE900822CE9E78001E0BFB /* woosh2.mp3 */; };
+		96CCB2982259B87000BBA43D /* Tram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB2972259B87000BBA43D /* Tram.swift */; };
+		96D990902338601D00801013 /* crash_cloud.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96D9908F2338601D00801013 /* crash_cloud.sks */; };
+		96D99092233924D300801013 /* hoverboard_wind.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96D99091233924D300801013 /* hoverboard_wind.sks */; };
+		96D99094233A89D700801013 /* default_snow_trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96D99093233A89D700801013 /* default_snow_trail.sks */; };
+		96D9909A233AF7B300801013 /* ambient_snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96D99098233AF7B300801013 /* ambient_snow.sks */; };
+		96D9909B233AF7B300801013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D99099233AF7B300801013 /* Assets.xcassets */; };
+		96D9909D233B283800801013 /* missed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96D9909C233B283800801013 /* missed.mp3 */; };
+		96DDACA32297C0AA002A0429 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96DDACA22297C0AA002A0429 /* wind.mp3 */; };
+		96E07C862476E7BD002BB62B /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E07C852476E7BC002BB62B /* Tutorial.swift */; };
+		96EF4EDA22506A9200C1EAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EF4ED922506A9200C1EAF0 /* Main.storyboard */; };
+		96F0C1082318806000F518A3 /* StoreElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0C1072318806000F518A3 /* StoreElements.swift */; };
+		96F2DC0B23E7BF500077FE2C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F2DC0A23E7BF500077FE2C /* StoreKit.framework */; };
+		96F312082299C2FC007BED64 /* snow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96F312072299C2FC007BED64 /* snow.mp3 */; };
+		96F3120C2299CC09007BED64 /* crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96F3120B2299CC09007BED64 /* crash.mp3 */; };
+		96F63F4022446A8200D26C8B /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F63F3F22446A8200D26C8B /* GameElements.swift */; };
+		96F743712400C4100045BF26 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F743702400C4100045BF26 /* IAPHelper.swift */; };
+		96F7437B240393D70045BF26 /* SkiSpreeProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F7437A240393D70045BF26 /* SkiSpreeProducts.swift */; };
+		96FA871D21AA49A7008704A7 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA871C21AA49A7008704A7 /* Tree.swift */; };
+		C3D0B91388AF0A19F22C1229 /* Pods_slippy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEA6ADF53C807D196F0CF9 /* Pods_slippy.framework */; };
+		F3ED5269EE36496EAFF261E6 /* Pods_slippyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1583386F1BFAB89B1BCF1BB /* Pods_slippyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +83,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066C748A3F14EA49A2829499 /* Pods-slippyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippyUITests.debug.xcconfig"; path = "Target Support Files/Pods-slippyUITests/Pods-slippyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58FE73888A9436F64BFC1A7E /* Pods_slippyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slippyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F20588DAC267F4EC498588C /* Pods-slippyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippyTests.debug.xcconfig"; path = "Target Support Files/Pods-slippyTests/Pods-slippyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96077E3522C27E0E00AE3BA9 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		960E89A7229B5B4700755FA1 /* Celebration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Celebration.mp3; sourceTree = "<group>"; };
+		9618856D22CE79C60001E175 /* pulse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pulse.mp3; sourceTree = "<group>"; };
+		9618856F22CE7E460001E175 /* woosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woosh.mp3; sourceTree = "<group>"; };
+		961FBC42224C214900996C8E /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		963FA6A92295AE7F00E1BB64 /* button_open.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_open.mp3; sourceTree = "<group>"; };
+		963FA6AB2295AE8300E1BB64 /* button_close.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_close.mp3; sourceTree = "<group>"; };
+		963FA6AF2296274800E1BB64 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		964F774822A44A2D003F6A37 /* Quick.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quick.ttf; sourceTree = "<group>"; };
 		966321A42157209E0051B0EA /* slippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966321A72157209E0051B0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		966321A92157209E0051B0EA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		966321AB2157209E0051B0EA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		966321AD2157209E0051B0EA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		966321AD2157209E0051B0EA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		966321AF2157209E0051B0EA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		966321B22157209E0051B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		966321B42157209F0051B0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966321B72157209F0051B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966321B92157209F0051B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966321BE2157209F0051B0EA /* slippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966321C22157209F0051B0EA /* slippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slippyTests.swift; sourceTree = "<group>"; };
-		966321C42157209F0051B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966321C42157209F0051B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = slippyTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		966321C92157209F0051B0EA /* slippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966321CD2157209F0051B0EA /* slippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slippyUITests.swift; sourceTree = "<group>"; };
 		966321CF2157209F0051B0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96632370228A856F00B44F8A /* CharactersMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersMenu.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		96632372228A88E800B44F8A /* SettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
+		96632387228D008F00B44F8A /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		9667562E221E217200E7FEB5 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		96940E68222B1A9F008F6BE5 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		969978CC232725B300507D6E /* crashed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = crashed.sks; sourceTree = "<group>"; };
+		969978CE23272A4B00507D6E /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		969978D023272F3600507D6E /* snowmobile_snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowmobile_snow.sks; sourceTree = "<group>"; };
+		969D0BC6226C26D100F474C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969D0BCA226D0C0500F474C5 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		969D4D25220689360096A11C /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		969D4D272206A84A0096A11C /* LargeRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeRock.swift; sourceTree = "<group>"; };
+		969D4D292206BAA50096A11C /* LargeCabin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCabin.swift; sourceTree = "<group>"; };
+		969D4D2B220EB0F90096A11C /* Snowman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman.swift; sourceTree = "<group>"; };
+		969D4D2D220F7DE50096A11C /* SmallCabin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCabin.swift; sourceTree = "<group>"; };
+		969D4D2F220F836E0096A11C /* SmallRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRock.swift; sourceTree = "<group>"; };
+		96B1CC8F21BD6B2A0035D9A7 /* Skier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skier.swift; sourceTree = "<group>"; };
+		96B7A3312239F9450080E181 /* skier_snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = skier_snow.sks; sourceTree = "<group>"; };
+		96BB569A227D6D7D00F541ED /* GameOverMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverMenu.swift; sourceTree = "<group>"; };
+		96BE900822CE9E78001E0BFB /* woosh2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woosh2.mp3; sourceTree = "<group>"; };
+		96CCB2972259B87000BBA43D /* Tram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tram.swift; sourceTree = "<group>"; };
+		96D9908F2338601D00801013 /* crash_cloud.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = crash_cloud.sks; sourceTree = "<group>"; };
+		96D99091233924D300801013 /* hoverboard_wind.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hoverboard_wind.sks; sourceTree = "<group>"; };
+		96D99093233A89D700801013 /* default_snow_trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = default_snow_trail.sks; sourceTree = "<group>"; };
+		96D99098233AF7B300801013 /* ambient_snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ambient_snow.sks; sourceTree = "<group>"; };
+		96D99099233AF7B300801013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96D9909C233B283800801013 /* missed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missed.mp3; sourceTree = "<group>"; };
+		96DDACA22297C0AA002A0429 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		96E07C852476E7BC002BB62B /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		96EF4ED922506A9200C1EAF0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		96F0C1072318806000F518A3 /* StoreElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreElements.swift; sourceTree = "<group>"; };
+		96F2DC0A23E7BF500077FE2C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		96F312072299C2FC007BED64 /* snow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snow.mp3; sourceTree = "<group>"; };
+		96F3120B2299CC09007BED64 /* crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash.mp3; sourceTree = "<group>"; };
+		96F63F3F22446A8200D26C8B /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		96F743702400C4100045BF26 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		96F7437A240393D70045BF26 /* SkiSpreeProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiSpreeProducts.swift; sourceTree = "<group>"; };
+		96FA871C21AA49A7008704A7 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		B0FB1B03FA176A524E37517F /* Pods-slippyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippyTests.release.xcconfig"; path = "Target Support Files/Pods-slippyTests/Pods-slippyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B41896BE4303ACE3C7B87880 /* Pods-slippyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippyUITests.release.xcconfig"; path = "Target Support Files/Pods-slippyUITests/Pods-slippyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2EFD412BFC2F4290E32BAF2 /* Pods-slippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippy.release.xcconfig"; path = "Target Support Files/Pods-slippy/Pods-slippy.release.xcconfig"; sourceTree = "<group>"; };
+		C7CEA6ADF53C807D196F0CF9 /* Pods_slippy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slippy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1583386F1BFAB89B1BCF1BB /* Pods_slippyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slippyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684DFA2F5D514AD3A4572E4 /* Pods-slippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slippy.debug.xcconfig"; path = "Target Support Files/Pods-slippy/Pods-slippy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +158,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F2DC0B23E7BF500077FE2C /* StoreKit.framework in Frameworks */,
+				C3D0B91388AF0A19F22C1229 /* Pods_slippy.framework in Frameworks */,
+				96077E3622C27E0E00AE3BA9 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ED5269EE36496EAFF261E6 /* Pods_slippyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +176,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E522789F61C8CADFBAAAE84 /* Pods_slippyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495EBD36D5DBD9494525FB6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F2DC0A23E7BF500077FE2C /* StoreKit.framework */,
+				96077E3522C27E0E00AE3BA9 /* GameKit.framework */,
+				C7CEA6ADF53C807D196F0CF9 /* Pods_slippy.framework */,
+				D1583386F1BFAB89B1BCF1BB /* Pods_slippyTests.framework */,
+				58FE73888A9436F64BFC1A7E /* Pods_slippyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5630D52F97873D7D8DC7B092 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F684DFA2F5D514AD3A4572E4 /* Pods-slippy.debug.xcconfig */,
+				C2EFD412BFC2F4290E32BAF2 /* Pods-slippy.release.xcconfig */,
+				6F20588DAC267F4EC498588C /* Pods-slippyTests.debug.xcconfig */,
+				B0FB1B03FA176A524E37517F /* Pods-slippyTests.release.xcconfig */,
+				066C748A3F14EA49A2829499 /* Pods-slippyUITests.debug.xcconfig */,
+				B41896BE4303ACE3C7B87880 /* Pods-slippyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		961FBC45224F339F00996C8E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				964F774822A44A2D003F6A37 /* Quick.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		963FA6A0229515B300E1BB64 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				96D9909C233B283800801013 /* missed.mp3 */,
+				96BE900822CE9E78001E0BFB /* woosh2.mp3 */,
+				9618856F22CE7E460001E175 /* woosh.mp3 */,
+				9618856D22CE79C60001E175 /* pulse.mp3 */,
+				960E89A7229B5B4700755FA1 /* Celebration.mp3 */,
+				96F3120B2299CC09007BED64 /* crash.mp3 */,
+				96F312072299C2FC007BED64 /* snow.mp3 */,
+				96DDACA22297C0AA002A0429 /* wind.mp3 */,
+				963FA6AF2296274800E1BB64 /* pop.mp3 */,
+				963FA6AB2295AE8300E1BB64 /* button_close.mp3 */,
+				963FA6A92295AE7F00E1BB64 /* button_open.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		9663219B2157209E0051B0EA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +241,8 @@
 				966321C12157209F0051B0EA /* slippyTests */,
 				966321CC2157209F0051B0EA /* slippyUITests */,
 				966321A52157209E0051B0EA /* Products */,
+				5630D52F97873D7D8DC7B092 /* Pods */,
+				495EBD36D5DBD9494525FB6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +259,26 @@
 		966321A62157209E0051B0EA /* slippy */ = {
 			isa = PBXGroup;
 			children = (
+				96D99097233AF6E200801013 /* Particles */,
+				963FA6A0229515B300E1BB64 /* Sounds */,
+				9663236F228A6F8500B44F8A /* Entities */,
+				961FBC45224F339F00996C8E /* Fonts */,
+				969D0BC6226C26D100F474C5 /* Assets.xcassets */,
 				966321A72157209E0051B0EA /* AppDelegate.swift */,
-				966321A92157209E0051B0EA /* GameScene.sks */,
-				966321AB2157209E0051B0EA /* Actions.sks */,
 				966321AD2157209E0051B0EA /* GameScene.swift */,
+				96F63F3F22446A8200D26C8B /* GameElements.swift */,
+				96E07C852476E7BC002BB62B /* Tutorial.swift */,
+				96F0C1072318806000F518A3 /* StoreElements.swift */,
 				966321AF2157209E0051B0EA /* GameViewController.swift */,
-				966321B12157209E0051B0EA /* Main.storyboard */,
-				966321B42157209F0051B0EA /* Assets.xcassets */,
+				96EF4ED922506A9200C1EAF0 /* Main.storyboard */,
 				966321B62157209F0051B0EA /* LaunchScreen.storyboard */,
 				966321B92157209F0051B0EA /* Info.plist */,
+				96BB569A227D6D7D00F541ED /* GameOverMenu.swift */,
+				96632370228A856F00B44F8A /* CharactersMenu.swift */,
+				96632372228A88E800B44F8A /* SettingsMenu.swift */,
+				96632387228D008F00B44F8A /* Button.swift */,
+				96F743702400C4100045BF26 /* IAPHelper.swift */,
+				96F7437A240393D70045BF26 /* SkiSpreeProducts.swift */,
 			);
 			path = slippy;
 			sourceTree = "<group>";
@@ -119,8 +286,8 @@
 		966321C12157209F0051B0EA /* slippyTests */ = {
 			isa = PBXGroup;
 			children = (
-				966321C22157209F0051B0EA /* slippyTests.swift */,
 				966321C42157209F0051B0EA /* Info.plist */,
+				966321C22157209F0051B0EA /* slippyTests.swift */,
 			);
 			path = slippyTests;
 			sourceTree = "<group>";
@@ -134,6 +301,42 @@
 			path = slippyUITests;
 			sourceTree = "<group>";
 		};
+		9663236F228A6F8500B44F8A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9667562E221E217200E7FEB5 /* Obstacle.swift */,
+				96940E68222B1A9F008F6BE5 /* Track.swift */,
+				969D0BCA226D0C0500F474C5 /* Coin.swift */,
+				961FBC42224C214900996C8E /* Goal.swift */,
+				969D4D272206A84A0096A11C /* LargeRock.swift */,
+				969D4D292206BAA50096A11C /* LargeCabin.swift */,
+				969D4D2F220F836E0096A11C /* SmallRock.swift */,
+				96CCB2972259B87000BBA43D /* Tram.swift */,
+				969D4D2B220EB0F90096A11C /* Snowman.swift */,
+				969D4D25220689360096A11C /* Flag.swift */,
+				96FA871C21AA49A7008704A7 /* Tree.swift */,
+				969D4D2D220F7DE50096A11C /* SmallCabin.swift */,
+				96B1CC8F21BD6B2A0035D9A7 /* Skier.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		96D99097233AF6E200801013 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				969978D023272F3600507D6E /* snowmobile_snow.sks */,
+				96D99091233924D300801013 /* hoverboard_wind.sks */,
+				96D99093233A89D700801013 /* default_snow_trail.sks */,
+				969978CC232725B300507D6E /* crashed.sks */,
+				96B7A3312239F9450080E181 /* skier_snow.sks */,
+				969978CE23272A4B00507D6E /* fire.sks */,
+				96D9908F2338601D00801013 /* crash_cloud.sks */,
+				96D99098233AF7B300801013 /* ambient_snow.sks */,
+				96D99099233AF7B300801013 /* Assets.xcassets */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966321D22157209F0051B0EA /* Build configuration list for PBXNativeTarget "slippy" */;
 			buildPhases = (
+				F97CF79AF065C73087162837 /* [CP] Check Pods Manifest.lock */,
 				966321A02157209E0051B0EA /* Sources */,
 				966321A12157209E0051B0EA /* Frameworks */,
 				966321A22157209E0051B0EA /* Resources */,
+				0522707D523E893265320D28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +363,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966321D52157209F0051B0EA /* Build configuration list for PBXNativeTarget "slippyTests" */;
 			buildPhases = (
+				BFD31D15D6C6CCA4ECACF8A1 /* [CP] Check Pods Manifest.lock */,
 				966321BA2157209F0051B0EA /* Sources */,
 				966321BB2157209F0051B0EA /* Frameworks */,
 				966321BC2157209F0051B0EA /* Resources */,
@@ -176,6 +382,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966321D82157209F0051B0EA /* Build configuration list for PBXNativeTarget "slippyUITests" */;
 			buildPhases = (
+				334671F21E10C566FC921E6B /* [CP] Check Pods Manifest.lock */,
 				966321C52157209F0051B0EA /* Sources */,
 				966321C62157209F0051B0EA /* Frameworks */,
 				966321C72157209F0051B0EA /* Resources */,
@@ -202,13 +409,21 @@
 				TargetAttributes = {
 					966321A32157209E0051B0EA = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					966321BD2157209F0051B0EA = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 966321A32157209E0051B0EA;
 					};
 					966321C82157209F0051B0EA = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 966321A32157209E0051B0EA;
 					};
 				};
@@ -238,11 +453,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966321B32157209E0051B0EA /* Main.storyboard in Resources */,
-				966321AA2157209E0051B0EA /* GameScene.sks in Resources */,
-				966321B52157209F0051B0EA /* Assets.xcassets in Resources */,
+				964F774922A44A2D003F6A37 /* Quick.ttf in Resources */,
+				96EF4EDA22506A9200C1EAF0 /* Main.storyboard in Resources */,
+				96F3120C2299CC09007BED64 /* crash.mp3 in Resources */,
+				96D99092233924D300801013 /* hoverboard_wind.sks in Resources */,
+				96D9909A233AF7B300801013 /* ambient_snow.sks in Resources */,
+				96D9909D233B283800801013 /* missed.mp3 in Resources */,
+				963FA6AC2295AE8300E1BB64 /* button_close.mp3 in Resources */,
+				969978CD232725B300507D6E /* crashed.sks in Resources */,
+				96DDACA32297C0AA002A0429 /* wind.mp3 in Resources */,
+				96F312082299C2FC007BED64 /* snow.mp3 in Resources */,
+				96B7A3322239F9450080E181 /* skier_snow.sks in Resources */,
+				96D990902338601D00801013 /* crash_cloud.sks in Resources */,
+				9618856E22CE79C60001E175 /* pulse.mp3 in Resources */,
+				969978CF23272A4B00507D6E /* fire.sks in Resources */,
+				963FA6B02296274800E1BB64 /* pop.mp3 in Resources */,
+				96BE900922CE9E78001E0BFB /* woosh2.mp3 in Resources */,
+				963FA6AA2295AE7F00E1BB64 /* button_open.mp3 in Resources */,
 				966321B82157209F0051B0EA /* LaunchScreen.storyboard in Resources */,
-				966321AC2157209E0051B0EA /* Actions.sks in Resources */,
+				96D99094233A89D700801013 /* default_snow_trail.sks in Resources */,
+				969D0BC7226C26D100F474C5 /* Assets.xcassets in Resources */,
+				969978D123272F3600507D6E /* snowmobile_snow.sks in Resources */,
+				960E89A8229B5B4700755FA1 /* Celebration.mp3 in Resources */,
+				96D9909B233AF7B300801013 /* Assets.xcassets in Resources */,
+				9618857022CE7E460001E175 /* woosh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +496,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0522707D523E893265320D28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slippy/Pods-slippy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slippy/Pods-slippy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slippy/Pods-slippy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		334671F21E10C566FC921E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slippyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD31D15D6C6CCA4ECACF8A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slippyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97CF79AF065C73087162837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slippy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		966321A02157209E0051B0EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969D0BCB226D0C0500F474C5 /* Coin.swift in Sources */,
+				96F63F4022446A8200D26C8B /* GameElements.swift in Sources */,
+				96B1CC9021BD6B2A0035D9A7 /* Skier.swift in Sources */,
+				96F7437B240393D70045BF26 /* SkiSpreeProducts.swift in Sources */,
+				969D4D282206A84A0096A11C /* LargeRock.swift in Sources */,
+				96F743712400C4100045BF26 /* IAPHelper.swift in Sources */,
+				96632388228D008F00B44F8A /* Button.swift in Sources */,
+				9667562F221E217200E7FEB5 /* Obstacle.swift in Sources */,
+				96F0C1082318806000F518A3 /* StoreElements.swift in Sources */,
 				966321AE2157209E0051B0EA /* GameScene.swift in Sources */,
+				969D4D2E220F7DE60096A11C /* SmallCabin.swift in Sources */,
+				969D4D2A2206BAA50096A11C /* LargeCabin.swift in Sources */,
+				961FBC43224C214900996C8E /* Goal.swift in Sources */,
 				966321B02157209E0051B0EA /* GameViewController.swift in Sources */,
+				96E07C862476E7BD002BB62B /* Tutorial.swift in Sources */,
+				96CCB2982259B87000BBA43D /* Tram.swift in Sources */,
+				96632373228A88E800B44F8A /* SettingsMenu.swift in Sources */,
+				96FA871D21AA49A7008704A7 /* Tree.swift in Sources */,
+				969D4D30220F836E0096A11C /* SmallRock.swift in Sources */,
+				969D4D2C220EB0F90096A11C /* Snowman.swift in Sources */,
+				96940E69222B1A9F008F6BE5 /* Track.swift in Sources */,
+				96BB569B227D6D7D00F541ED /* GameOverMenu.swift in Sources */,
 				966321A82157209E0051B0EA /* AppDelegate.swift in Sources */,
+				969D4D26220689360096A11C /* Flag.swift in Sources */,
+				96632371228A856F00B44F8A /* CharactersMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +647,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		966321B12157209E0051B0EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				966321B22157209E0051B0EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		966321B62157209F0051B0EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,44 +776,56 @@
 		};
 		966321D32157209F0051B0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F684DFA2F5D514AD3A4572E4 /* Pods-slippy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8D685N22HU;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = slippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippy;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.skispree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		966321D42157209F0051B0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EFD412BFC2F4290E32BAF2 /* Pods-slippy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8D685N22HU;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = slippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippy;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.skispree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		966321D62157209F0051B0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F20588DAC267F4EC498588C /* Pods-slippyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D685N22HU;
 				INFOPLIST_FILE = slippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +834,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slippy.app/slippy";
 			};
@@ -496,10 +842,12 @@
 		};
 		966321D72157209F0051B0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FB1B03FA176A524E37517F /* Pods-slippyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D685N22HU;
 				INFOPLIST_FILE = slippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,7 +856,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slippy.app/slippy";
 			};
@@ -516,9 +864,11 @@
 		};
 		966321D92157209F0051B0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066C748A3F14EA49A2829499 /* Pods-slippyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D685N22HU;
 				INFOPLIST_FILE = slippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,7 +877,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = slippy;
 			};
@@ -535,9 +885,11 @@
 		};
 		966321DA2157209F0051B0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41896BE4303ACE3C7B87880 /* Pods-slippyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D685N22HU;
 				INFOPLIST_FILE = slippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -546,7 +898,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeon.slippyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = slippy;
 			};

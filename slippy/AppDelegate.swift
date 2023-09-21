@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    //let iapHelper = IAPHelper(prodIds: Set(["com.eudeon.skispree.7500_coins"]))
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //Set up the shared instance of Google Mobile Ad Manager
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+
+        //Request products from the store
+        SkiSpreeProducts.store.requestProducts{ [weak self] success, products in
+            guard self != nil else { return }
+          if success {
+            
+          }
+        }
+        
         return true
     }
 
